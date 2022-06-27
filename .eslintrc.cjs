@@ -15,6 +15,6 @@ module.exports = {
   plugins: ["prettier"],
   rules: {
     camelcase: "off",
-    "prettier/prettier": "error",
+    "prettier/prettier": "0",
   },
 };
