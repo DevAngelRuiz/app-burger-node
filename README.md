@@ -9,7 +9,7 @@ It's a full server (back-end) of hamburger store, developed using CRUD methods. 
 
 In the first, you need to install in your computer the follow tools:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
-Should be good have a code editor like as [VSCode](https://code.visualstudio.com/)
+Could be good have a code editor like as [VSCode](https://code.visualstudio.com/)
 
 
 
