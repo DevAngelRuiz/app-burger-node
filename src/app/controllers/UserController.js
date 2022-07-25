@@ -7,7 +7,7 @@ store => Cadastrar/ Adicionar
 index => Listar vários 
 show => Listar apenas um 
 update => atualizar 
-delete => deletrar
+delete => deletar
 */
 class UserController{
     async store(request, response){
@@ -29,7 +29,7 @@ class UserController{
             where: {email},
         })
         if(userExists){
-            return response.status(400).json({error:'User already exists'})
+            return response.status(409).json({error:'User already exists'})
         }
         // console.log(userExists)
 
